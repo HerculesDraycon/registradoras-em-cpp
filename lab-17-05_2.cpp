@@ -1,3 +1,8 @@
+/*O professor X tem n turmas, ele não sabe quantos alunos tem por turma.
+Cada aluno tem 3 notas, se forem maiores ou iguais a 7 é aprovado.
+O algoritmo mostra ao final de cada turma a média da turma.
+Ao final mostra o total de aprovados e reprovados.*/
+
 #include <iostream>
 using namespace std;
 

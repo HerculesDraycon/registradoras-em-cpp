@@ -1,3 +1,10 @@
+ /*Algoritmo para uma loja, essa loja tem algumas regrinhas especiais: 
+- Ela vai atender uma quantidade de clientes que será indicada ao abrir a loja.
+- Cada cliente pode entrar com quantos valores (produtos) quiser, quando ele entrar com valor negativo encerra a compra dele.
+  (não considerar esse valor negativo para calcular média dele).
+- O algoritmo mostra a cada cliente a média de valor dos produtos dele.
+- Ao fim, mostra a média de gastos por clientes.*/
+
 #include <iostream>
 using namespace std;
 
