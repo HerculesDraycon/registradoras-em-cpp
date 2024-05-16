@@ -30,12 +30,15 @@ int main(){
             cin>>valor;
         }
 
-        cout<<"O media de gastos do cliente foi: "<<somaprodutos/i<< endl;
+        cout<<"A media de gastos do cliente "<<(ccl + 1)<<" foi: "<<somaprodutos/i<< endl;
+
+        if(ccl < clientes-1){
+            cout<<"Proximo cliente. "<<endl<<"Insira os valores dos produtos escolhidos:"<< endl;
+        }
 
     }
 
     cout<<"A media geral de gastos dos clientes foi: "<<actotal/clientes<< endl;
-    cout<<"Proximo cliente: "<< endl;
 
     return 0;
 }
